@@ -84,11 +84,14 @@ body {
 }
 
 .video-fundo {
+    background-color: red;
     position: absolute;
     z-index: -1;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 } 
 
 .video-fundo .video {
@@ -108,3 +111,38 @@ body {
     background: linear-gradient(90deg, rgba(5,5,5,1) 11%, rgba(8,7,7,0.5522584033613445) 50%, rgba(5,5,5,1) 84%);
 }
 
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 52, 50, 0.7);
+
+    visibility: hidden;
+}
+
+.conteudo-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.fechar-modal {
+    background-color: #161616;
+    color: #ffffff;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.modal.aberto {
+    opacity: 1;
+    visibility: visible;
+}
