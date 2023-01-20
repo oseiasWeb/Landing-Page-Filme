@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: black;
+    }
+
+    .video-fundo {
+        display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 35px;
+    }
+
+    .container .guardioes {
+        max-width: 60%;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    
+}
