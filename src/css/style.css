@@ -3,8 +3,11 @@ body {
 }
 
 .cabecalho {
-    background-color: aqua;
     display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .cabecalho .logo {
@@ -12,3 +15,63 @@ body {
     height: 65px;
     border-radius: 50%;
 }
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho nav li a {
+    font-weight: ;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+.cabecalho nav li a:hover {
+    background-color: #d5011d;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+}
+
+.container .imagem-titulo {
+    max-width: 600px;
+}
+
+.container .descricao {
+    color: #fff;
+    width: 85%;
+    font-size: 18px;
+}
+
+.container .botao-trailer {
+    background-color: #ff0021;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+
+.container .botao-trailer:hover{
+    transform: scale(1.1);
+}
+
+.container .guardioes {
+    width: 950px;
+    
+}
+
