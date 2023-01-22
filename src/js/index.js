@@ -1,15 +1,19 @@
-const botaoTrailer = document.querySelector(".botao-trailer"); 
+const botaoTrailer = document.querySelector(".botao-trailer");
+const botaoFecharModal = document.querySelector(".fechar-modal"); 
 const modal = document.querySelector(".modal");
 const video = document.getElementById("video");
 const linkVideo = video.src;
 
+function abrirFecharModal(){
+    modal.classList.toggle("aberto");
+}
+
 botaoTrailer.addEventListener("click", () => {  
-    modal.classList.add("aberto");
+    abrirFecharModal();
     video.setAttribute("src",linkVideo);
 });
 
-const botaoFecharModal = document.querySelector(".fechar-modal");
 botaoFecharModal.addEventListener("click", () => {
-    modal.classList.remove("aberto");
+    abrirFecharModal();
     video.setAttribute("src","");
 })
