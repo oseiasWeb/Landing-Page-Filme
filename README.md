@@ -15,6 +15,16 @@
  <p>A página apresenta os principais filmes que serão lançados em 2023. Abaixo temos um pequeno gif com a apresentação do sistema:</p><br>
 <img align="center" src="./src/img/page.gif" alt="Gif sistema" title="Gif sistema"><p><i>Gif - funcionalidades da página</i></p>
 
+<h2 align="center">📐✂️ Página Responsiva</h2>
+<p>O projeto apresenta responsividade na navegação nos principais dispositivos:<br></p>
+<ul>
+    <li>Desktop 🖥️</li>
+    <li>Tablet 💻</li>
+    <li>Smartphone 📱</li>
+</ul>
+
+
+
 <h2 align="center">🔗 Link da página</h2>
 <p>Logo abaixo temos o link da página para visualização e testes:</p>
 👉 <a href="https://oseiasweb.github.io/Landing-Page-Filme/" target="_blank">Agência Fotográfica</a><br><br>
