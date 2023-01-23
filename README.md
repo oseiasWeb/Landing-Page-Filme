@@ -11,4 +11,15 @@
     </ul><br>
 </div>
 
+<h2 align="center">🤔 Como Utilizar</h2>
+ <p>A página apresenta os principais filmes que serão lançados em 2023. Abaixo temos um pequeno gif com a apresentação do sistema:</p><br>
+<img align="center" src="./src/img/page.gif" alt="Gif sistema" title="Gif sistema"><p><i>Gif - funcionalidades da página</i></p>
 
+<h2 align="center">🔗 Link da página</h2>
+<p>Logo abaixo temos o link da página para visualização e testes:</p>
+👉 <a href="https://oseiasweb.github.io/Landing-Page-Filme/" target="_blank">Agência Fotográfica</a><br><br>
+
+<h2 align="center">🏆 Status Projeto</h2>
+<p align="center">
+ <img src="src/img/desenvolvimento.webp"/>
+</p>
