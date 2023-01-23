@@ -28,6 +28,10 @@
         text-align: center;
         margin-top: 20px;
     }
+
+    .container .guardioes {
+        width: 500px;
+    }
 }
 
 @media (max-width: 500px) {
